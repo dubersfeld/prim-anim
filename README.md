@@ -1,7 +1,8 @@
 # prim-anim
-Java based animated demonstration of Minimum Spanning Tree Prim algorithm using HTML5 Canvas, Javascript and AJAX.
 
 I present here a Java based demonstration of the Minimum Spanning Tree using Prim algorithm.
+
+Only a recent Maven version is required to run this application (I used 3.6.0).
 
 The algorithm itself is implemented in Java, Javascript is only used for initialization and display on Canvas.
 
@@ -13,7 +14,20 @@ This collection is then sent to the browser as a JSON object.
 
 The collection is used for an animated display (browser side).
 
-When deployed on Tomcat the context root is minimum-spanning-tree.
+To launch the demo run the command in project directory: `mvn spring-boot:run`.
+
+When the application has started hit the browser on URL `http://localhost:8080/minimum-spanning-tree`.
+
+Here are some screen shots that can be seen in this demo.
+
+After graph initialization:
+![alt text](images/init.png "Graph initialized")
+
+After the component was found:
+![alt text](images/component.png "Component found")
+
+After the end of the animation:
+![alt text](images/minimumSpanningTree.png "Minimum Spanning Tree")
 
 For a step-by-step demonstration please visit this repository:
 
