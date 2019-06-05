@@ -16,7 +16,7 @@ The collection is used for an animated display (browser side).
 
 To launch the demo run the command in project directory: `mvn spring-boot:run`.
 
-When the application has started hit the browser on URL `http://localhost:8080/minimum-spanning-tree`.
+When the application has started open a browser and hit URL `http://localhost:8080/minimum-spanning-tree`.
 
 Here are some screen shots that can be seen in this demo.
 
